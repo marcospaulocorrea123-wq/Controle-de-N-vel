@@ -16,9 +16,9 @@ Ao executar o programa, o sistema exibe no terminal os níveis do reservatório 
 
 📊 Tabela de Referência de Níveis
 
-🔴 Vermelho: Nível Crítico — Ação imediata necessária.
+🔴 Vermelho: Nível Muito baixo (Crítico) — Ação imediata necessária.
 
-🟡 Amarelo: Nível Baixo — Monitorar fluxo de entrada.
+🟡 Amarelo: Nível Baixo — Monitorafluxo de entrada.
 
 🟢 Verde: Nível Médio — Operação normal (Ideal).
 
