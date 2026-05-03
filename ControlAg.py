@@ -7,10 +7,10 @@ init(autoreset=True)
 # ================= BASE DE ALARMES =================
 
 alarmes = [
-    {"codigo": "A1", "mensagem": "Falha crítica no sistema", "nivel": "CRITICO"},
-    {"codigo": "A2", "mensagem": "Nível de água muito baixo", "nivel": "ALTO"},
+    {"codigo": "A1", "mensagem": "Muito baixo (crítico)", "nivel": "CRITICO"},
+    {"codigo": "A2", "mensagem": "Nível de água muito baixo", "nivel": "BAIXO"},
     {"codigo": "A3", "mensagem": "Pressão fora do padrão", "nivel": "MEDIO"},
-    {"codigo": "A4", "mensagem": "Sistema operando normalmente", "nivel": "NORMAL"},
+    {"codigo": "A4", "mensagem": "Sistema operando normalmente", "nivel": "ALTO"},
     {"codigo": "A5", "mensagem": "Nível de água muito alto", "nivel": "ALERTA"}
 ]
 
@@ -19,14 +19,14 @@ alarmes = [
 def definir_cor(nivel):
     if nivel == "CRITICO":
         return Fore.RED + Style.BRIGHT
-    elif nivel == "ALTO":
+    elif nivel == "BAIXO":
         return Fore.YELLOW + Style.BRIGHT
     elif nivel == "MEDIO":
-        return Fore.CYAN
-    elif nivel == "ALERTA":
-        return Fore.BLUE + Style.BRIGHT
-    elif nivel == "NORMAL":
         return Fore.GREEN
+    elif nivel == "ALERTA":
+        return Fore.CYAN + Style.BRIGHT
+    elif nivel == "NORMAL":
+        return Fore.BLUE
     else:
         return Fore.WHITE
 
@@ -56,3 +56,4 @@ def simular_alarmes():
 
 if __name__ == "__main__":
     simular_alarmes()
+
