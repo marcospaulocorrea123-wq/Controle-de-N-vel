@@ -6,6 +6,7 @@
 
 ## 📌 Objetivo do Projeto
 
+Esse projeto visa simular um painel de controle exibindo linhas de mensagens de alarmes com especificações de cores no terminal conforme o monitoramento do nível de água de um reservatório em função do tempo.
 
 
 ---
