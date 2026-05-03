@@ -38,7 +38,7 @@ Essa diferenciação visual facilita a interpretação rápida das informações
 git clone https://github.com/marcospaulocorrea123-wq/Controle-de-N-vel
 
 
-3. Acesse o Código:
+3. Copie o Código:
 
 controlAg.py
 
