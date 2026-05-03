@@ -27,8 +27,8 @@ Ao executar o programa, o sistema exibe no terminal os níveis do reservatório 
 🔵 Azul: Nível Muito Alto — Risco de transbordamento.
 
 Essa diferenciação visual facilita a interpretação rápida das 
-informações, o diagrama abaixo mostra a lógica do programa:
-<img width="1222" height="870" alt="06" src="https://github.com/user-attachments/assets/b615f16c-0d9f-4eca-aad0-053fd2ad5cf4" />
+informações.
+
 
 
 ---
