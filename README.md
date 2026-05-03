@@ -35,7 +35,7 @@ Essa diferenciação visual facilita a interpretação rápida das informações
 1. Instale o Python
 2. Baixe o projeto ou clone o repositório:
 
-git clone https://github.com/seu-usuario/consumo-energia.git
+git clone https://github.com/marcospaulocorrea123-wq/Controle-de-N-vel
 
 
 3. Acesse a pasta:
