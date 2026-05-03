@@ -1,65 +1,58 @@
-# ⚡ Controle de Níveis de Água
+from colorama import Fore, Style, init
+import time
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Status](https://img.shields.io/badge/Status-Concluído-green)
-![License](https://img.shields.io/badge/Licença-Livre-lightgrey)
+# Inicializa colorama
+init(autoreset=True)
 
-## 📌 Objetivo do Projeto
+# ================= BASE DE ALARMES =================
 
-Criar um sistema simples em Python que simule o monitoramento do nível de água de um reservatório, exibindo mensagens coloridas no terminal conforme o nível.
+alarmes = [
+    {"codigo": "A1", "mensagem": "Falha crítica no sistema", "nivel": "CRITICO"},
+    {"codigo": "A2", "mensagem": "Nível de água muito baixo", "nivel": "ALTO"},
+    {"codigo": "A3", "mensagem": "Pressão fora do padrão", "nivel": "MEDIO"},
+    {"codigo": "A4", "mensagem": "Sistema operando normalmente", "nivel": "NORMAL"},
+    {"codigo": "A5", "mensagem": "Nível de água muito alto", "nivel": "ALERTA"}
+]
 
----
+# ================= CORES =================
 
-## 🧠 Como funciona?
+def definir_cor(nivel):
+    if nivel == "CRITICO":
+        return Fore.RED + Style.BRIGHT
+    elif nivel == "ALTO":
+        return Fore.YELLOW + Style.BRIGHT
+    elif nivel == "MEDIO":
+        return Fore.CYAN
+    elif nivel == "ALERTA":
+        return Fore.BLUE + Style.BRIGHT
+    elif nivel == "NORMAL":
+        return Fore.GREEN
+    else:
+        return Fore.WHITE
 
-Ao executar o programa, o sistema exibe no terminal os níveis do reservatório com cores diferentes, conforme a criticidade:
+# ================= EXIBIÇÃO =================
 
-Vermelho: nível crítico;
-Amarelo: nível baixo;
-Verde: nível médio;
-Ciano: nível alto;
-Azul: nível muito alto.
+def exibir_alarme(alarme):
+    cor = definir_cor(alarme["nivel"])
+    
+    print(cor + "==============================")
+    print(cor + f" CÓDIGO : {alarme['codigo']}")
+    print(cor + f" NÍVEL  : {alarme['nivel']}")
+    print(cor + f" STATUS : {alarme['mensagem']}")
+    print(cor + "==============================\n")
 
-Essa diferenciação visual facilita a interpretação rápida das informações.
+# ================= SIMULAÇÃO =================
 
----
+def simular_alarmes():
+    print("🚨 SISTEMA DE ALARMES ATIVO 🚨\n")
+    
+    for alarme in alarmes:
+        exibir_alarme(alarme)
+        time.sleep(1)
 
-## ▶️ Como executar
+    print(Style.RESET_ALL)
 
-1. Instale o Python
-2. Baixe o projeto ou clone o repositório:
+# ================= EXECUÇÃO =================
 
-git clone https://github.com/seu-usuario/consumo-energia.git
-
-
-3. Acesse a pasta:
-
-controlAg.py
-
-
-4. Execute o programa:
-
-controlAg.py
-
-
----
-
-## 💡 Exemplo de uso
-
-
-Assim que você executar o programa vai apresentar uma simulação exibindo a situação 
-do nivel de agua e os respectivos alarmes conforme a figura abaixo.
-
----
-
-## 🚀 Tecnologias utilizadas
-
-- 🐍 Python
-- 💻 Git & GitHub
-- Biblioteca Colorama
-
----
-
-## 👨‍💻 Autor
-
-Marcos Correa
+if __name__ == "__main__":
+    simular_alarmes()
