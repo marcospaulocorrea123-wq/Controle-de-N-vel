@@ -6,14 +6,14 @@
 
 ## 📌 Objetivo do Projeto
 
-Esse projeto visa simular um painel de controle exibindo linhas de mensagens de alarmes com especificações de cores no terminal conforme o monitoramento do nível de água de um reservatório em função do tempo.
+## Esse projeto visa simular um painel de controle exibindo linhas de mensagens de alarmes com especificações de cores no terminal conforme o monitoramento do nível de água de um reservatório em função do tempo.
 
 
 ---
 
 ## 🧠 Como funciona?
 
-Ao executar o programa, o sistema exibe no terminal os níveis do reservatório com cores diferentes, conforme a criticidade:
+## Ao executar o programa, o sistema exibe no terminal os níveis do reservatório com cores diferentes, conforme a criticidade:
 
 📊 Tabela de Referência de Níveis
 
