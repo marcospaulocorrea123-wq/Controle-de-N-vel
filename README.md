@@ -63,18 +63,22 @@ do nivel de agua e os respectivos alarmes em intervalos de tempo conforme as fig
 ## ⏱️ Intervalo 01
 
 
-<img width="444" height="211" alt="07" src="https://github.com/user-attachments/assets/0ed78a89-3aa7-411c-b24c-da91f9f24b4d" />
+
+<img width="454" height="169" alt="03" src="https://github.com/user-attachments/assets/eb03ba7d-b753-4daa-879b-47cac042ef51" />
+
 
 
 ## ⏱️ Intervalo 02
 
-<img width="453" height="300" alt="08" src="https://github.com/user-attachments/assets/8798e18d-6586-4684-965e-5df37fffc7ac" />
+<img width="445" height="276" alt="07" src="https://github.com/user-attachments/assets/834bb2fe-49ae-40fc-a981-7bd120f147ca" />
 
 
 ## ⏱️ Intervalo (t + n...)
 
 
-<img width="752" height="534" alt="03" src="https://github.com/user-attachments/assets/ef37fdd2-ee55-4580-ab97-debdd9983a1e" />
+<img width="452" height="488" alt="08" src="https://github.com/user-attachments/assets/ff9efdcb-6da7-4cd0-a63d-87342e325a05" />
+
+
 
 
 ---
