@@ -29,6 +29,7 @@ Ao executar o programa, o sistema exibe no terminal os níveis do reservatório 
 Essa diferenciação visual facilita a interpretação rápida das 
 informações.
 
+<img width="1024" height="1536" alt="09" src="https://github.com/user-attachments/assets/8887eb3d-0981-4f6a-9508-7b3a33b702f0" />
 
 
 ---
