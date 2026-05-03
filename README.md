@@ -1,4 +1,4 @@
-# ⚡ Controle de Nível de Reservatório
+# 💻 Painel de Controle: Nível de Reservatório
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
@@ -14,11 +14,17 @@ Esse é um sistema simples em Python que simula o monitoramento do nível de ág
 
 Ao executar o programa, o sistema exibe no terminal os níveis do reservatório com cores diferentes, conforme a criticidade:
 
-Vermelho: nível crítico;
-Amarelo: nível baixo;
-Verde: nível médio;
-Ciano: nível alto;
-Azul: nível muito alto.
+📊 Tabela de Referência de Níveis
+
+🔴 Vermelho: Nível Crítico — Ação imediata necessária.
+
+🟡 Amarelo: Nível Baixo — Monitorar fluxo de entrada.
+
+🟢 Verde: Nível Médio — Operação normal (Ideal).
+
+🧼 Ciano: Nível Alto — Capacidade elevada.
+
+🔵 Azul: Nível Muito Alto — Risco de transbordamento.
 
 Essa diferenciação visual facilita a interpretação rápida das informações.
 
