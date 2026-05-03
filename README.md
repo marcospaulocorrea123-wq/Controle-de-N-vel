@@ -38,7 +38,7 @@ Essa diferenciação visual facilita a interpretação rápida das informações
 git clone https://github.com/marcospaulocorrea123-wq/Controle-de-N-vel
 
 
-3. Acesse a pasta:
+3. Acesse o Código:
 
 controlAg.py
 
@@ -65,7 +65,7 @@ do nivel de agua e os respectivos alarmes conforme a figura abaixo.
 
 - 🐍 Python
 - 💻 Git & GitHub
-- Biblioteca Colorama
+- 🎨 Biblioteca Colorama
 
 ---
 
