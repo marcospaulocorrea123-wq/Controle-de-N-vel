@@ -57,7 +57,22 @@ controlAg.py
 
 
 Assim que você executar o programa vai apresentar uma simulação exibindo a situação 
-do nivel de agua e os respectivos alarmes conforme a figura abaixo.
+do nivel de agua e os respectivos alarmes em intervalos de tempo conforme as figuras abaixo.
+
+
+## ⏱️ Intervalo 01
+
+
+<img width="444" height="211" alt="07" src="https://github.com/user-attachments/assets/0ed78a89-3aa7-411c-b24c-da91f9f24b4d" />
+
+
+## ⏱️ Intervalo 02
+
+<img width="453" height="300" alt="08" src="https://github.com/user-attachments/assets/8798e18d-6586-4684-965e-5df37fffc7ac" />
+
+
+## ⏱️ Intervalo (t + n...)
+
 
 <img width="752" height="534" alt="03" src="https://github.com/user-attachments/assets/ef37fdd2-ee55-4580-ab97-debdd9983a1e" />
 
