@@ -1,4 +1,4 @@
-# ⚡ Controle de Níveis de Água
+# ⚡ Controle de Nível de Reservatório
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
@@ -6,7 +6,7 @@
 
 ## 📌 Objetivo do Projeto
 
-Criar um sistema simples em Python que simule o monitoramento do nível de água de um reservatório, exibindo mensagens coloridas no terminal conforme o nível.
+Esse é um sistema simples em Python que simula o monitoramento do nível de água de um reservatório, exibindo mensagens coloridas no terminal conforme o nível.
 
 ---
 
@@ -49,6 +49,9 @@ controlAg.py
 
 Assim que você executar o programa vai apresentar uma simulação exibindo a situação 
 do nivel de agua e os respectivos alarmes conforme a figura abaixo.
+
+<img width="752" height="534" alt="03" src="https://github.com/user-attachments/assets/ef37fdd2-ee55-4580-ab97-debdd9983a1e" />
+
 
 ---
 
